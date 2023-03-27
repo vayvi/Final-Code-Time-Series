@@ -73,6 +73,6 @@ Example notebooks are provided and are structured as follows:
   * A baseline using K-means clustering over a smoothed time series.
   * Our deep clustering without autoencoding over a smoothed time series.
   * The fully pretrained AutoEncoder only followed by spectral clustering over the initial time series.
-  * The full model followed by spectral clusters over the inital time series.
+  * The joint AutoEncoder and spectral clustering model over the inital time series.
 
 The autoencoder and clustering models weights will be saved in a **models_weights** directory. Also the train.py file returns the ROC score corresponding to the training parameters.
