@@ -5,6 +5,10 @@
 Analysis of the Deep-Temporal Clustering model , presented in the paper :
 Madiraju, N. S., Sadat, S. M., Fisher, D., & Karimabadi, H. (2018). Deep Temporal Clustering : Fully Unsupervised Learning of Time-Domain Features. <http://arxiv.org/abs/1802.01059>
 
+# Credits
+
+Our code is heavily inspired by the the code in <https://github.com/HamzaG737/Deep-temporal-clustering>.
+
 # Our work
 
 We present in this repository an ablation study of the DTC model.
@@ -15,10 +19,6 @@ Our main additions to the code are :
 * Changed the execution script to support more evaluation metrics (ROC-AUC, ARI, AMI).
 * Added the different analysis notebooks (Exploratory Data Analysis and Ablation study notebooks, Class ClusterNetSmooth in `models.py`).
 * Added the SPX-dataset (not included in the final report).
-
-# Credits
-
-Our code is heavily inspired by the the code in <https://github.com/HamzaG737/Deep-temporal-clustering>.
 
 ## Usage
 
