@@ -33,6 +33,7 @@ pip install -r requirements.txt
 ### Data analysis
 
 We have provided a Jupyter notebook `Data_analysis.ipynb` that performs a comprehensive analysis of the datasets that we worked with. This notebook contains various statistics, visualizations, and exploratory data analysis techniques to help you gain insights into the dataset.
+The data statistics are reported in [this google drive](https://drive.google.com/drive/folders/1WirGW4yI1m0QaUbWZeHbSOLBSDyChf8l?usp=sharing).
 
 ### Training
 
