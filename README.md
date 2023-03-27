@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ### Data analysis
 
-We have provided a Jupyter notebook Data_analysis.ipynb that performs a comprehensive analysis of the datasets that we worked with. This notebook contains various statistics, visualizations, and exploratory data analysis techniques to help you gain insights into the dataset.
+We have provided a Jupyter notebook `Data_analysis.ipynb` that performs a comprehensive analysis of the datasets that we worked with. This notebook contains various statistics, visualizations, and exploratory data analysis techniques to help you gain insights into the dataset.
 
 ### Training
 
@@ -65,15 +65,14 @@ python3 reproduce_exps.py --similarity <similarity_arg> --pool <pool_arg> --data
 Example notebooks are provided and are structured as follows:
 
 <!-- not organized, maybe we can have bullet points with notebooks and small descriptions?  -->
-- A data analysis notebook with various statistics over the UCR datasets: Data_analysis.ipynb
-- A training example along with heatmap visualization for:
-  - The original paper's method, Deep Temporal Clustering (DTC), in DTC_heatmap.ipynb
-  - Our Deep Clustering without autoencoding method in Deep_clustering_heatmap.ipynb
-- A comprehensive notebook, ablation_studies.ipynbn with all of our ablation studies and comparisons with the following sections:
-  - A baseline using K-means clustering over a smoothed time series.
-  - Our deep clustering without autoencoding over a smoothed time series. 
-  - The fully pretrained AutoEncoder only followed by spectral clustering over the initial time series.
-  - The full model followed by spectral clusters over the inital time series.
-    
+* A data analysis notebook with various statistics over the UCR datasets: `Data_analysis.ipynb`
+* A training example along with heatmap visualization for:
+  * The original paper's method, Deep Temporal Clustering (DTC), in `DTC_heatmap.ipynb`
+  * Our Deep Clustering without autoencoding method in `Deep_clustering_heatmap.ipynb`
+* A comprehensive notebook, `Ablation_studies.ipynb` with all of our ablation studies and comparisons with the following sections:
+  * A baseline using K-means clustering over a smoothed time series.
+  * Our deep clustering without autoencoding over a smoothed time series.
+  * The fully pretrained AutoEncoder only followed by spectral clustering over the initial time series.
+  * The full model followed by spectral clusters over the inital time series.
 
 The autoencoder and clustering models weights will be saved in a **models_weights** directory. Also the train.py file returns the ROC score corresponding to the training parameters.
