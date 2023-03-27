@@ -10,10 +10,10 @@ Madiraju, N. S., Sadat, S. M., Fisher, D., & Karimabadi, H. (2018). Deep Tempora
 We present in this repository an ablation study of the DTC model.
 Our main additions to the code are :
 
-* Added the heatmap network.
+* Added the heatmap network. (Class HeatMapNet in `models.py`)
 * Added Soft-DTW Similarity.
 * Changed the execution script to support more evaluation metrics (ROC-AUC, ARI, AMI).
-* Added the different analysis notebooks (Exploratory Data Analysis and Ablation study).
+* Added the different analysis notebooks (Exploratory Data Analysis and Ablation study notebooks, Class ClusterNetSmooth in `models.py`).
 * Added the SPX-dataset (not included in the final report).
 
 # Credits
@@ -57,10 +57,10 @@ Note that the similarity and pool arguments are required. You can find a full li
 
 ### Reproducibility
 
-In order to reproduce the papers' results, you can run the following line of code:
+In order to reproduce the papers' results, simply run the following line of code:
 
 ```shell
-python3 reproduce_exps.py --similarity <similarity_arg> --pool <pool_arg> --dataset_name <dataset_name>
+python3 reproduce_exps.py
 ```
 
 Example notebooks are provided and are structured as follows:
